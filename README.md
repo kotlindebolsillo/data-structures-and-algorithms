@@ -63,39 +63,31 @@ fun main() {
 ✅ Java-style (sortArrayJavaWay)
 
 ```kotlin
-fun sortArrayKotlinWay(array: IntArray) {
-   val timeInMillis = measureTimeMillis {
-            for (firstUnsortedIndex in 1..<array.size) {
-                val newElement: Int = array[firstUnsortedIndex]
-
-                var i = firstUnsortedIndex
-                while (i > 0 && array[i - 1] > newElement) {
-                    array[i] = array[i - 1]
-                    i--
+override fun sortArrayJavaWay(array: IntArray) {
+        val timeInMillis = measureTimeMillis {
+            for (lastUnsortedIndex in array.size - 1 downTo 1) {
+                for (i in 0 until lastUnsortedIndex) {
+                    if(array[i] > array[i + 1]) {
+                        array.swap(i, i + 1)
+                    }
                 }
-
-                array[i] = newElement
             }
         }
         array.printArray()
         timeInMillis.printTimeInMillis()
-}
+    }
 ```
 🎯 Kotlin-style (sortArrayKotlinWay)
 
 ```kotlin
 override fun sortArrayKotlinWay(array: IntArray) {
         val timeInMillis = measureTimeMillis {
-            for (firstUnsortedIndex in 1 until array.size) {
-                val newElement = array[firstUnsortedIndex]
-                var i = firstUnsortedIndex
-
-                while (i > 0 && array[i - 1] > newElement) {
-                    array[i] = array[i - 1]
-                    i--
+            for (lastUnsortedIndex in array.lastIndex downTo 1) {
+                array.forEachIndexed { index, _ ->
+                    if (index < lastUnsortedIndex && array[index] > array[index + 1]) {
+                        array.swap(index, index + 1)
+                    }
                 }
-
-                array[i] = newElement
             }
         }
         array.printArray()
