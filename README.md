@@ -19,8 +19,8 @@ This project showcases the lessons of the course [Data Structures & Algorithms](
 ✅ Implementation of common data structures and algorithms in Kotlin.  
 ✅ Side-by-side comparison of Java-style vs Kotlin-style coding.  
 ✅ Focus on **readability**, **performance**, and **best practices**.  
-✅ Easy-to-understand code for beginners and experienced developers alike.
-✅ **Execution time measurement** – Each algorithm tracks how long it takes to complete, helping analyze performance. 
+✅ Easy-to-understand code for beginners and experienced developers alike.  
+✅ **Execution time measurement** – Each algorithm tracks how long it takes to complete, helping analyze performance.  
 
 ---
 
