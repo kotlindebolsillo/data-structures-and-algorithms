@@ -14,12 +14,12 @@ This project showcases the lessons of the course [Data Structures & Algorithms](
 ---
 
 ## 📖 Table of Contents
-- [🛠️ Features](#features)
-- [📂 Project Structure](#project-structure)
-- [⚡ Usage](#usage)
-- [📝 Example](#example)
-- [📌 Contribution](#contribution)
-- [📄 License](#-contribution-1))
+- [🛠️ Features](#%EF%B8%8F-features-1)
+- [📂 Project Structure]([#-project-structure-1))
+- [⚡ Usage](#-usage-1)
+- [📝 Example](#-example-bubble-sort-1)
+- [📌 Contribution](#-contribution-1)
+- [📄 License](#-contribution-1)
 
 ---
 
@@ -128,116 +128,3 @@ This project is licensed under the MIT License – feel free to use, modify, and
 📜 See LICENSE for more details.
 
 ## 🎯 Happy Coding! 🚀)
-- [📂 Project Structure](#project-structure)
-- [⚡ Usage](#usage)
-- [📝 Example](#example)
-- [📌 Contribution](#contribution)
-- [📄 License](#license)
-
----
-
-## 🛠️ Features
-✅ Implementation of common data structures and algorithms in Kotlin.  
-✅ Side-by-side comparison of Java-style vs Kotlin-style coding.  
-✅ Focus on **readability**, **performance**, and **best practices**.  
-✅ Easy-to-understand code for beginners and experienced developers alike.
-✅ **Execution time measurement** – Each algorithm tracks how long it takes to complete, helping analyze performance. 
-
----
-
-## 📂 Project Structure
-
-```
-📦 data-structures-and-algorithms/
-├── 📦 src
-    ├── 📦 arrays
-        ├── 📜 BubbleSortAlgorithm.kt
-        ├── 📜 InsertionSortAlgorithm.kt
-        ├── 📜 SelectionSortAlgorithm.kt
-        ├── 📜 ShellSortAlgorithm.kt
-  ├── 📦 utils
-├── 📜 Main.kt
-└── 📜 README.md
-```
----
-
-## ⚡ Usage
-To run the algorithms, simply call the corresponding function:
-
-```kotlin
-fun main() {
-    val shortUnsortedArray = (-10..10).shuffled().take(8).toIntArray()
-
-    println("Sorting using Java-style approach:")
-    InsertionSortAlgorithm.sortArrayJavaWay(shortUnsortedArray)
-
-    println("\nSorting using Kotlin-style approach:")
-    InsertionSortAlgorithm.sortArrayKotlinWay(shortUnsortedArray)
-}
-```
----
-
-## 📝 Example: Bubble Sort
-
-✅ Java-style (sortArrayJavaWay)
-
-```kotlin
-fun sortArrayKotlinWay(array: IntArray) {
-   val timeInMillis = measureTimeMillis {
-            for (firstUnsortedIndex in 1..<array.size) {
-                val newElement: Int = array[firstUnsortedIndex]
-
-                var i = firstUnsortedIndex
-                while (i > 0 && array[i - 1] > newElement) {
-                    array[i] = array[i - 1]
-                    i--
-                }
-
-                array[i] = newElement
-            }
-        }
-        array.printArray()
-        timeInMillis.printTimeInMillis()
-}
-```
-🎯 Kotlin-style (sortArrayKotlinWay)
-
-```kotlin
-override fun sortArrayKotlinWay(array: IntArray) {
-        val timeInMillis = measureTimeMillis {
-            for (firstUnsortedIndex in 1 until array.size) {
-                val newElement = array[firstUnsortedIndex]
-                var i = firstUnsortedIndex
-
-                while (i > 0 && array[i - 1] > newElement) {
-                    array[i] = array[i - 1]
-                    i--
-                }
-
-                array[i] = newElement
-            }
-        }
-        array.printArray()
-        timeInMillis.printTimeInMillis()
-    }
-```
-
----
-
-## 📌 Contribution
-💡 Want to improve the code or add more algorithms?
-Feel free to fork this repo, make your changes, and submit a pull request!
-
-- Fork the repository
-- Create a branch (git checkout -b feature-branch)
-- Commit your changes (git commit -m "Added HeapSort implementation")
-- Push to your branch (git push origin feature-branch)
-- Open a Pull Request 🚀
-
----
-
-## 📄 License
-This project is licensed under the MIT License – feel free to use, modify, and distribute!
-📜 See LICENSE for more details.
-
-## 🎯 Happy Coding! 🚀
