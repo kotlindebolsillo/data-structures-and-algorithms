@@ -19,7 +19,7 @@ This project showcases the lessons of the course [Data Structures & Algorithms](
 - [⚡ Usage](#usage)
 - [📝 Example](#example)
 - [📌 Contribution](#contribution)
-- [📄 License](#license)
+- [📄 License](#-contribution-1))
 
 ---
 
