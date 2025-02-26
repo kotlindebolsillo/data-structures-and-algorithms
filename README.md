@@ -14,8 +14,8 @@ This project showcases the lessons of the course [Data Structures & Algorithms](
 ---
 
 ## 📖 Table of Contents
-- [🛠️ Features](#%EF%B8%8F-features-1)
-- [📂 Project Structure]([#-project-structure-1))
+- [🛠️ Features](#%EF%B8%8F-features))
+- [📂 Project Structure](#-project-structure)
 - [⚡ Usage](#-usage-1)
 - [📝 Example](#-example-bubble-sort-1)
 - [📌 Contribution](#-contribution-1)
