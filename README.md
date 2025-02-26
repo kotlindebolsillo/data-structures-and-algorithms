@@ -119,4 +119,4 @@ Feel free to fork this repo, make your changes, and submit a pull request!
 This project is licensed under the MIT License – feel free to use, modify, and distribute!
 📜 See LICENSE for more details.
 
-## 🎯 Happy Coding! 🚀)
+## 🎯 Happy Coding! 🚀
