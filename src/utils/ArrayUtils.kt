@@ -1,4 +1,4 @@
-package sorth_algorithms
+package utils
 
 val shortUnsortedArray = (-10..10).shuffled().take(8).toIntArray()
 val longUnsortedArray = (-100..100).shuffled().take(50).toIntArray()
@@ -11,8 +11,3 @@ fun IntArray.swap(i: Int, j: Int) {
 fun IntArray.printArray() {
     forEach { println(it) }
 }
-
-fun Long.printTimeInMillis() {
-    println("(The operation took $this ms)")
-}
-

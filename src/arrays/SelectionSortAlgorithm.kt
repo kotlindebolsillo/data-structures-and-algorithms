@@ -1,5 +1,9 @@
-package sorth_algorithms
+package arrays
 
+import utils.printArray
+import utils.printTimeInMillis
+import utils.swap
+import utils.veryLongUnsortedArray
 import kotlin.system.measureTimeMillis
 
 fun main() {

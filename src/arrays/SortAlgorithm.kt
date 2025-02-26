@@ -1,4 +1,4 @@
-package sorth_algorithms
+package arrays
 
 interface SortAlgorithm {
     fun sortArrayKotlinWay(array: IntArray)
