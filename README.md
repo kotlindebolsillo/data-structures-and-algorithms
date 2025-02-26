@@ -34,7 +34,10 @@ This project showcases the lessons of the course [Data Structures & Algorithms](
         ├── 📜 InsertionSortAlgorithm.kt
         ├── 📜 SelectionSortAlgorithm.kt
         ├── 📜 ShellSortAlgorithm.kt
-  ├── 📦 utils
+        ├── 📜 SortAlgorithm.kt           
+    ├── 📦 utils
+        ├── 📜 ArrayUtils.kt
+        ├── 📜 LongUtils.kt    
 ├── 📜 Main.kt
 └── 📜 README.md
 ```
