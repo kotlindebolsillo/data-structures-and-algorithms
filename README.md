@@ -38,7 +38,6 @@ This project showcases the lessons of the course [Data Structures & Algorithms](
     ├── 📦 utils
         ├── 📜 ArrayUtils.kt
         ├── 📜 LongUtils.kt    
-├── 📜 Main.kt
 └── 📜 README.md
 ```
 ---
