@@ -116,7 +116,7 @@ Feel free to fork this repo, make your changes, and submit a pull request!
 ---
 
 ## 📄 License
-This project is licensed under the MIT License – feel free to use, modify, and distribute!
-📜 See LICENSE for more details.
+This project is licensed under the **MIT License** – feel free to use, modify, and distribute!  
+📜 See the full license [here](LICENSE).
 
 ## 🎯 Happy Coding! 🚀
