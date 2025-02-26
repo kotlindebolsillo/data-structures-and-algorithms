@@ -6,20 +6,12 @@ This project showcases the lessons of the course [Data Structures & Algorithms](
 ---
 
 ## 📖 Table of Contents
-- [🛠️ Features](## 🚀 Welcome to the **Data Structures & Algorithms in Kotlin** repository! 
-This project showcases the lessons of the course [Data Structures & Algorithms](https://www.udemy.com/course/data-structures-and-algorithms-deep-dive-using-java/?srsltid=AfmBOorCZMEp3TDzPCE8WHT2wfX5RjSNNwHq8d4TYLmeg9sGyEKzjBco), each implemented in two ways:
-1. **Java-style (`sortArrayJavaWay`)**: A more traditional, imperative approach.
-2. **Kotlin-style (`sortArrayKotlinWay`)**: A more idiomatic, expressive Kotlin version.
-
----
-
-## 📖 Table of Contents
-- [🛠️ Features](#%EF%B8%8F-features))
-- [📂 Project Structure](#-project-structure)
-- [⚡ Usage](#-usage-1)
-- [📝 Example](#-example-bubble-sort-1)
-- [📌 Contribution](#-contribution-1)
-- [📄 License](#-contribution-1)
+- [🛠️ Features](#%EF%B8%8F-features)
+- [📂 Project Structure](#-project-structure))
+- [⚡ Usage](#-usage)
+- [📝 Example](#-example-bubble-sort)
+- [📌 Contribution](#-contribution)
+- [📄 License](#-license)
 
 ---
 
